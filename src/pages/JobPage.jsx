@@ -1,8 +1,7 @@
-import { useParams, useLoaderData, Link } from 'react-router-dom'
+import { useLoaderData, Link } from 'react-router-dom'
 import { FaArrowLeft, FaMapMarker } from 'react-icons/fa';
 
 const JobPage = () => {
-    const { id } = useParams();
     const job = useLoaderData();
 
     return (
